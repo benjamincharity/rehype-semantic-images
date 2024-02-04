@@ -1,7 +1,7 @@
 {
   "name": "@benjc/rehype-semantic-images",
   "version": "0.0.1",
-  "description": "TODO",
+  "description": "This unified ecosystem plugin enriches HTML images with semantic elements and customizable features, improving accessibility and performance through options like lazy loading and dynamic source modification.",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -26,7 +26,12 @@
   },
   "keywords": [
     "rehype",
-    "rehype-plugin"
+    "rehype-plugin",
+    "unified",
+    "unified-plugin",
+    "html",
+    "images",
+    "figure"
   ],
   "author": "Benjamin Charity <ben.charity@hey.com> (https://www.benjamincharity.com/)",
   "license": "MIT",
