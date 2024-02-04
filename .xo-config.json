@@ -1,0 +1,6 @@
+{
+  "space": true,
+  "rules": {
+    "import/order": "off"
+  }
+}
