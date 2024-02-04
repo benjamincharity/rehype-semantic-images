@@ -1,6 +1,6 @@
 {
   "name": "@benjc/rehype-semantic-images",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This unified ecosystem plugin enriches HTML images with semantic elements and customizable features, improving accessibility and performance through options like lazy loading and dynamic source modification.",
   "type": "module",
   "main": "dist/index.js",
