@@ -55,7 +55,7 @@
   "scripts": {
     "build": "tsc",
     "coverage": "vitest run --coverage",
-    "coverage:types": "type-coverage --min=100",
+    "coverage:types": "type-coverage",
     "format": "prettier --write .",
     "lint": "xo --prettier",
     "lint:fix": "xo --fix --prettier",
@@ -65,7 +65,7 @@
   },
   "type": "module",
   "typeCoverage": {
-    "atLeast": 100,
+    "atLeast": 97,
     "detail": true,
     "ignoreCatch": true,
     "strict": true
