@@ -1,44 +1,14 @@
 {
-  "name": "@benjc/rehype-semantic-images",
-  "version": "0.1.0",
-  "description": "This unified ecosystem plugin enriches HTML images with semantic elements and customizable features, improving accessibility and performance through options like lazy loading and dynamic source modification.",
-  "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "tsc",
-    "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "coverage:types": "type-coverage --min=100",
-    "typecheck": "tsc --noEmit",
-    "lint": "xo --prettier",
-    "lint:fix": "xo --fix --prettier",
-    "format": "prettier --write ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benjamincharity/rehype-semantic-images.git"
-  },
-  "keywords": [
-    "rehype",
-    "rehype-plugin",
-    "unified",
-    "unified-plugin",
-    "html",
-    "images",
-    "figure"
-  ],
   "author": "Benjamin Charity <ben.charity@hey.com> (https://www.benjamincharity.com/)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/benjamincharity/rehype-semantic-images/issues"
   },
-  "homepage": "https://github.com/benjamincharity/rehype-semantic-images#readme",
+  "dependencies": {
+    "rehype": "^13.0.0",
+    "unified": "^11.0.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "description": "This unified ecosystem plugin enriches HTML images with semantic elements and customizable features, improving accessibility and performance through options like lazy loading and dynamic source modification.",
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/hast": "^3.0.4",
@@ -58,14 +28,48 @@
     "vitest": "^1.2.2",
     "xo": "~0.56.0"
   },
-  "peerDependencies": {
-    "rehype": "^13.0.0",
-    "unified": "^11.0.0"
-  },
   "engines": {
     "node": ">=18.0.0"
   },
-  "dependencies": {
-    "unist-util-visit": "5.0.0"
-  }
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/benjamincharity/rehype-semantic-images#readme",
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "unified",
+    "unified-plugin",
+    "html",
+    "images",
+    "figure"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "name": "@benjc/rehype-semantic-images",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamincharity/rehype-semantic-images.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "coverage": "vitest run --coverage",
+    "coverage:types": "type-coverage --min=100",
+    "format": "prettier --write .",
+    "lint": "xo --prettier",
+    "lint:fix": "xo --fix --prettier",
+    "prebuild": "rimraf dist",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "typeCoverage": {
+    "atLeast": 100,
+    "detail": true,
+    "ignoreCatch": true,
+    "strict": true
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.1.1"
 }
