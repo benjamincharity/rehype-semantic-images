@@ -2,6 +2,7 @@
 
 ![test workflow](https://github.com/benjamincharity/rehype-semantic-images/actions/workflows/test.yml/badge.svg)
 [![codecov](https://codecov.io/gh/benjamincharity/rehype-semantic-images/branch/main/graph/badge.svg?token=T3Z18P56LV)](https://codecov.io/gh/benjamincharity/rehype-semantic-images)
+![NPM Version](https://img.shields.io/npm/v/@benjc/rehype-semantic-images)
 
 This plugin enhances images in HTML documents processed by rehype in the unified ecosystem. It adds semantic elements such as figure, figcaption, and customizable container elements, and supports lazy loading options, custom class names, and IDs. It enables dynamic source set and URL building, which allows developers to improve accessibility, SEO, and performance of web pages. With fine-grained control over image presentation and loading behavior, this plugin provides developers with greater flexibility and customization options.
 
